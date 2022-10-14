@@ -138,7 +138,7 @@ vector<int> findYRange(pair<int, int> A, pair<int, int> B, pair<int, int> C)
             toY = C.second;
         }
     }
-    res.push_back(fromY);
-    res.push_back(toY);
+    res.emplace_back(fromY);
+    res.emplace_back(toY);
     return res;
 }
