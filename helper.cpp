@@ -6,6 +6,7 @@ int i = 0;
 #define N (323802 * 2) - 3
 #define Q (310753 * 3) + N
 
+// defining structure
 struct P
 {
     int x, y, d;
