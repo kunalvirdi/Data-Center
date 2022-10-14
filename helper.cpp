@@ -17,7 +17,7 @@ vector<pair<int,int>> buildN(vector<int> inputs){
     while (i <= N)
     {
         pair<int, int> p = {inputs[i], inputs[i + 1]};
-        n.push_back(p);
+        n.emplace_back(p);
         i += 2;
     }
     return n;
@@ -83,8 +83,8 @@ vector<int> findXRange(pair<int, int> A, pair<int, int> B, pair<int, int> C)
             toX = C.first;
         }
     }
-    res.push_back(fromX);
-    res.push_back(toX);
+    res.emplace_back(fromX);
+    res.emplace_back(toX);
     return res;
 }
 
