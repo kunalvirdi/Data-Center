@@ -58,7 +58,7 @@ int main(){
             counter++;
             continue;
         }
-        inputs.push_back(x);
+        inputs.emplace_back(x);
     }
     vector<pair<int, int>> n = buildN(inputs);
     vector<P> q = buildQ(inputs);
