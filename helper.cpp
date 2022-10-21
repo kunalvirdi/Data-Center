@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// Global variables and macros
 int i = 0;
 #define N (323802 * 2) - 3
 #define Q (310753 * 3) + N
