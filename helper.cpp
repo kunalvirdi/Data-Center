@@ -38,7 +38,7 @@ vector<P> buildQ(vector<int> inputs){
 vector<int> findXRange(pair<int, int> A, pair<int, int> B, pair<int, int> C)
 {
     vector<int> res;
-    int fromX = INT_MAX,toX=INT_MIN;
+    int fromX = INT_MAX,toX=INT_MIN;        //setting range
     if (A.first < B.first)
     {
         if (A.first < C.first)
